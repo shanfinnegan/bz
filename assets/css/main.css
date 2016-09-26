@@ -1,3 +1,28 @@
 body {
 	background-image: url(background_dotslines.png);
+	background-repeat: no-repeat;
+	font-family: "Arial", sans-serif;
 }
+
+h3 {
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.8;
+}
+
+div.textbox {
+	background-color: white;
+	height: 105px;
+	width: 300px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #00A9E5;
+	margin: 0px auto 0px auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
