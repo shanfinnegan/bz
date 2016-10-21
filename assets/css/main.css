@@ -4,8 +4,13 @@
           box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+}
+
+/* For devices smaller than 400px: */
 body {
-	background-image: url(background_dotslines.png);
+	background-image: url(background_dotslines_sm.png);
 	background-repeat: no-repeat;
 	font-family: "Arial", sans-serif;
 }
@@ -32,3 +37,9 @@ div.textbox {
 	transform: translate(-50%, -50%);
 }
 
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url(background_dotslines.png); 
+    }
+}
